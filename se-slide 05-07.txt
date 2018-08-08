@@ -1,0 +1,239 @@
+req smua yang ada d srs 
+
+penggguna
+client
+mau kerjain apa 
+timeline
+memodelkan dengan uml 
+dokumen yg harus d deliver
+
+req d tuangkan dalam bentuk srs 
+
+inception 
+==========
+membagi kelompok, mengetahui owner dan bagaimana cara menyingkapi
+timnya anggota, cara berbicara supaya dapat mengumpulkan seluruh data aplikasi 
+tentang apa, pengguna siapa, platform hanya berbicara secara umum
+mengenali personal owner , aplikasi secara umum apa 
+kenal secara umum, teknik pengumpilan kebutuhan , suasana rapat, butuhnya apa , 
+pengguna siapa, platform secara umum
+paham secara umum garis besar + siapa customer
+
+Elicitaion
+==========
+spesifikasikan secara lebih detail, sudah buat meeting
+buat apa, fitur"nya , masing" fitur untuk menangani masalah apa
+hasil akhir dari fitur, harus tahu teknikal secara detail 
+proses yang ada d dalam , tahu proses mana yg mendahului proses apa
+algo d masng" proses, secara teknikal membuat pake android versi berapa
+eclipse atau android studio
+secara teknikal, fitur" dan software yang terkait
+pembayaran tagihan, secara spesifik mekanisme, yang di entry apa 
+untuk memverifikasi , sesuai dengan nomor pelanggan bgmn ?
+teknikal step by step aplikasi, algo, validasi , verifikasi 
+bgmn mengidentifikasi hal' unik yang membedakan data 
+design bgmn , verifikasi validasi data gmn ? , 
+mulai melakukan pemodelan sederhana melalui pemahaman sederhana kita 
+step by step , fitur by fitur buat yang paling sederhana 
+activity diagram, menjelaskan secara spesifik, aktivitas dan tahapan 
+yang mendahului , secara paralel, 
+activity -> proses mana yg mendahului mana , selection , paralel 
+paham cust butuh apa 
+mendetailkan setiap proses, perubahan setiap proses, apa yg berubah ke proses selanjutnya
+value apa yang dibawa
+
+Elaboration
+===========
+melakukan pemodelan, memodelkan baik dalam pemodelan data nya maupun memodelkan object
+objectnya juga dalam sisi behaviournya
+melihat aplikasi oop atau tidak , mengambarkan , mengelaborate permasalahan teknikal 
+dalam bentuk use case atau functional, use case brti sudah tahu fungsionalitas mana y
+yang digunakan masing-masign pengguna, secara umum user biasanya sudah paham use case 
+dan penggunaanya
+use case -> apa yg dapat di lakukan user, interaksi antara user dan sistem, 
+relasi antar use case , antar sistem dengan sistem (yg lain d sbt external actor)
+elaborasi di kategorikan menjadi 4 :
+
+scenario based element -> menggunakan use case
+class based -> class diagram , crc card
+behavioural element -> state diagram 
+flow oriented element -> dfd
+
+tidak smua d gunakan tergantung aplikasi yang d bangun 
+oop yg 3 d atas bisa, procedural bisa yg functional dan dfd 
+
+use case yg ptg , kta tahu siapa actor , apa yg bisa d lakukan actor, 
+relasi antar actor dan use case , menginiliasasi, atau menggunkan saja 
+actor -> kelompok actornya klasifikasi 
+bgmn relasi antar use case , extend atau include 
+ada sistem lain yang terlibat dalam use case itu , 
+sistem lain sama spt actor / kotak 
+
+sistem boundaries -> tahu apa yg di lakukan sistem dan tidak d lakkan sistem 
+
+kelompok actor , masing " mengakses yg mn , yg menginiliasasi atau menggunakan saja, 
+kterkaitan antar use case , actor lain / sistem lain yg terlibat 
+cth binus maya terintgrasi dengan ssc , bisa tahu tagihan dll , perpus (external systm )
+game login with facebook google ,(external actor)
+
+class diagram ->  nama class, atrribute, method , kasih () membedakan ,
+class diagram tidak sempurna jika tidak ada public private protected
++ bisa akses dr mnpun 
+# bisa d akses anak 
+- 
+
++ behaviour
+
+package ->  kluarkan 1 class class, bikin folder
+
+ketika mendefine class, hrs mengidentifikasi -+#, setter dan getter , 
+pakai setter dan getter ,pake private karena konsep oop hiding information 
+class diagram , harus memperhatikan setter dan getter 
+
+association -> hubugan saling
+
+mengakses method (multiplicity)
+mahasiswa , mendefine ketika 
+ada berapa kali , d dalam class iini ada berapa kali memangil method nya 
+hanya , bukan data
+
+buka codingan , class diagram , sequence, berelasi tidak , use case nya, ad alternate
+atau tidak , smua saling berhubungan , memulai aplikasi design dlu, bru d terjemahkan 
+pada saat coding bukan sebaliknya , 
+
+State -> lebih ke object , proses d dalam, proses, perubhaan masing" proses, 
+
+sequence diagram -> sebutkan nama class , buat lifetime , methodnya yang d class
+itu hubungan dengan class diagram, 
+
+relasi antara class dan sequence, dan codingan , 
+
+activity diagram -> ada define arp dan opt ? 
+
+Analyis pattern jarang di gunakan lagi
+
+analyis yg d pake skrg uml dan dfd 
+
+dfd mencerminkan perubahan data , apa yg menyebabkanny 
+
+
+Negotiation
+===============
+elaborate, paling lama , mengambarkan , pemodelan apa yg d obrolin 
+harus sesuai setelah d modelkan , maka akan kambali bertemu,
+kembali ketemu dengan owner , diskusi sudah benar atau tidak 
+jika bnar bernegosiasi, dari sisi fungsionlitas, menghitung cost, 
+nego harga, nego sistem pembayaran 
+banyak teknik pembayran 
+50 30 20
+30 30 40
+
+pembayaran pertama -> setelah projek selesai
+pemabayarn kedua -> setelah maintenance selesai
+1 bln 3 bln 6 bln
+jika terjadi error masih mau benerin tanpa bayaran 
+timeline, fungsionalitas , termasuk pembayaran 
+
+Specification
+==============
+setelah bernego, pembicaraan mengenai dokumen apa yg hrs d deliver
+setelah pemodelan , ada diagram tambahan lain 
+ketika validasi enkripsi , ketika register buat account , pass dalam bentuk apa 
+enkripsi apa, umum md5 atau yg lain 
+scrum incremental , karena akan menghasilkan deliverable yang beda 
+
+Validation
+============
+validasi diagram yang dibuat ke owner, fungsionalitas harus lengkap sesuai kemauan owner
+
+Requirment management
+=======================
+ke 6 tahap termasuk d dalam req management 
+setiap kali ketemu owner, hrs mendokumentasi berita acara / agenda pembahasan 
+solusi apa, ttg fitur" , timeline yg hrs d penuhi, 
+memastikan setiap tahapan (6) terpenuhi, dan memastiskan setiap pertemuan dicatat dengan
+baik shg jika ada perubahan kesalah pahaman , diminta dokum sebelum , ada 
+
+	
+REQ MODELING
+=================
+sudah d jelaskan , req analysis -> scenario base, class 
+slide lama blm d update 
+
+lakukan lah software req anlysis terhadap case d atas
+
+maka harus lihat pake oop atau procedural,
+jika oop maka bisa use case , class, sequence , state
+jika procedural -> dfd untuk flow modelnya , 
+user stories -> siapa actor, proses d dalam apa saja, hasil akhirnya apa,
+menceritakan secara narasi 
+
+class dibagi mjd 3 :
+
+entity class /  model -> setter getter dari database 
+view -> tampilan ke user, pakai android xml 
+controller -> class yang menanganni smua algo di app nya 
+
+bgmn cara buat class , yg mn yg class , yg mn yg data , yg mn yg proses
+buat tabel dlu, candidate, data, proses apa 
+
+class -> benda , nama tmpt , struktur dll
+nama org object, org , dan mereka punya data ,
+meja -> ada tinggi ada lebar, ada jumlah kaki 
+mau d apain , biasanya d soal dta ini akan di tambahkan , d delete, 
+jika 3 nya lengkap maka ini class, 
+jika ad object lain namun d class tidak d sebutkan data nya apa proses nya ap 
+brti bukan class. 
+
+contoh yang bisa menjadi candidate class, 
+ada attribute -> fungsinya untuk menyimpan dta , nama = "ajsnxan"
+menampung data , attrubut ada yg menyimpan data secara statis, ada yg untuk menyimpan 
+operasi antar 2 attirbut, hasil operasi
+
+operation/proses -> hal-hal yg bsa d lakukan terhadap object / data sbuah candidate class
+cth penambahan data, delete, update, hitung volume (operasi di data object) 
+apa yg kita lakukan terhadap data, penambahan data ke database, memonitor
+
+mendefine class diagram , 
+
+jika sudah buat crc card msih perlu buat class ? 
+perlu knp, tergantung user , atau biasanya, jka pake xp tidak perlu uml lagi, 
+karena xp kelebihannya crc card, 
+
+compos dan aggre ?
+?????????????????????????????????????????????????????????????????????????????
+
+compos -> tidak bisa berdiri sendiri
+aggre -> masih punya arti sendiri
+
+dependencies , bergantung
+
+compos = bagian dari class , depen -> kamera bisa berdiri sneiri , 
+fungsinya bergantung penuh pada kamera 
+
+package
+=======
+1 project , task kecil" , satu kesatuan utuh tapi di dalamnnya ada peneglompokan
+lagi sesuai fungsinya , biasanya project java, maka akan ada package folder, 
+gunannya protected, terorganisir dengan baik , protected hy bisa akses d package yg sma
+hanya d soal saja, jk d buat d se , tm utc uac bisa akses
+
+behavioral
+===========
+sequence dan state
+
+data tree -> tampilan website, tampilan aplikasi mobile, fiturny apa" saja, menu"
+apa saja, info ny apa" saja, pemodelannnya data tree ini sudah berkembang 
+
+jika di minta data modeling , sql nnti psti ada ird, jika pakai no sql node tree
+
+
+interaction diagram 
+=============
+sequence, 
+
+configuration model
+====================
+component diagram, deployment diagram
+
+selain server ada apa 
